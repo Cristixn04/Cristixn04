@@ -1,26 +1,24 @@
 <div align="center">
-
-  <!-- BANNER DE ENCABEZADO DINÁMICO -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1d,50:0e2b26,100:00ff90&height=220&section=header&text=Cristian%20Camilo%20Muñoz&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Desarrollador%20Full%20Stack%20%7C%20Backend%20%7C%20IA%20%26%20Automatización&descAlignY=62&descAlign=50" alt="Banner Cristian Camilo" width="100%" />
-
+  <!-- BANNER SVG PROPIO (100% Estable, sin caídas externas) -->
+  <img src="./banner.svg" alt="Banner Cristian Camilo Muñoz" width="100%" />
+  <br/><br/>
   <!-- EFECTO TYPING ANIMADO -->
   <a href="https://cristixn04.github.io" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=00FF90&center=true&vCenter=true&width=650&lines=Backend-first+%26+Full+Stack+Developer;Java+%2B+Spring+Boot+%7C+Python+%7C+PostgreSQL;Automatizaci%C3%B3n+de+procesos+con+n8n+%26+Agentes+IA;Creando+soluciones+escalables+con+impacto+real" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=00FF90&center=true&vCenter=true&width=650&lines=Backend-first+%26+Full+Stack+Developer;Java+%2B+Spring+Boot+%7C+Python+%7C+PostgreSQL;Automatizacion+de+procesos+con+n8n+%26+Agentes+IA;Creando+soluciones+escalables+con+impacto+real" alt="Typing SVG" />
   </a>
-
   <br/><br/>
-
-  <!-- BADGES DE CONTACTO RÁPIDO -->
+  <!-- BADGES DE CONTACTO -->
   <a href="https://cristixn04.github.io" target="_blank">
     <img src="https://img.shields.io/badge/Portafolio_Web-0a0a0a?style=for-the-badge&logo=googlechrome&logoColor=00ff90" alt="Portfolio" />
   </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/cristian-muñoz-159980409" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
   <a href="mailto:7b.munoz.cristian@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-
 </div>
 
 ---
