@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="60%" stop-color="#0a1220"/>
+      <stop offset="100%" stop-color="#050a12"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace; }
+    .prompt-user { fill: #00ff90; font-weight: 700; font-size: 13.5px; }
+    .prompt-path { fill: #38bdf8; font-weight: 600; font-size: 13.5px; }
+    .prompt-cmd { fill: #f8fafc; font-weight: 500; font-size: 13.5px; }
+    .t-key { fill: #00ff90; font-weight: 600; font-size: 13px; }
+    .t-colon { fill: #64748b; font-size: 13px; }
+    .t-str { fill: #e2e8f0; font-size: 13px; }
+    .t-hl { fill: #38bdf8; font-weight: 500; font-size: 13px; }
+    .t-green { fill: #22c55e; font-weight: 600; font-size: 13px; }
+    .t-title { fill: #94a3b8; font-size: 12.5px; font-weight: 500; }
+  </style>
+
+  <!-- Ventana Terminal con borde resplandeciente -->
+  <rect width="880" height="340" rx="14" fill="url(#termBg)" stroke="#00ff90" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- Barra de título estilo macOS -->
+  <path d="M 0,14 Q 0,0 14,0 L 866,0 Q 880,0 880,14 L 880,38 L 0,38 Z" fill="#0c1424"/>
+  <line x1="0" y1="38" x2="880" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Botones reales geométricos de ventana macOS (Cero emojis) -->
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="19" r="6" fill="#27c93f"/>
+
+  <!-- Título centrado de la terminal -->
+  <text x="440" y="24" text-anchor="middle" class="mono t-title">cristian@archlinux: ~ (zsh)</text>
+
+  <!-- Prompt y comando ejecutado -->
+  <g transform="translate(32, 68)" class="mono">
+    <text x="0" y="0">
+      <tspan class="prompt-user">cristian@portfolio</tspan><tspan class="prompt-path">:[~]$</tspan> <tspan class="prompt-cmd">cat profile.json</tspan>
+    </text>
+  </g>
+
+  <!-- Salida JSON estructurada con syntax highlighting -->
+  <g transform="translate(32, 94)" class="mono">
+    <text x="0" y="18"><tspan class="t-colon">{</tspan></text>
+    <text x="20" y="40">
+      <tspan class="t-key">"nombre"</tspan><tspan class="t-colon">: </tspan><tspan class="t-str">"Cristian Camilo Muñoz Rodríguez"</tspan><tspan class="t-colon">,</tspan>
+    </text>
+    <text x="20" y="62">
+      <tspan class="t-key">"rol"</tspan><tspan class="t-colon">: </tspan><tspan class="t-hl">"Full Stack &amp; Backend Developer"</tspan><tspan class="t-colon">,</tspan>
+    </text>
+    <text x="20" y="84">
+      <tspan class="t-key">"stack_core"</tspan><tspan class="t-colon">: </tspan><tspan class="t-str">["Java 21 (Spring Boot)", "Python (FastAPI)", "React 19", "TypeScript"]</tspan><tspan class="t-colon">,</tspan>
+    </text>
+    <text x="20" y="106">
+      <tspan class="t-key">"arquitectura"</tspan><tspan class="t-colon">: </tspan><tspan class="t-str">"DDD Hexagonal · REST APIs · PostgreSQL (4FN) · Docker"</tspan><tspan class="t-colon">,</tspan>
+    </text>
+    <text x="20" y="128">
+      <tspan class="t-key">"automatizacion_ia"</tspan><tspan class="t-colon">: </tspan><tspan class="t-str">"Google Gemini SDK · n8n Workflows · WebSockets"</tspan><tspan class="t-colon">,</tspan>
+    </text>
+    <text x="20" y="150">
+      <tspan class="t-key">"disponibilidad"</tspan><tspan class="t-colon">: </tspan><tspan class="t-green">"Open to Work (Remoto / Híbrido)"</tspan><tspan class="t-colon">,</tspan>
+    </text>
+    <text x="20" y="172">
+      <tspan class="t-key">"filosofia"</tspan><tspan class="t-colon">: </tspan><tspan class="t-str">"Construir soluciones de software robustas, eficientes y con impacto real."</tspan>
+    </text>
+    <text x="0" y="194"><tspan class="t-colon">}</tspan></text>
+  </g>
+
+  <!-- Línea final con cursor neón parpadeante -->
+  <g transform="translate(32, 314)" class="mono">
+    <text x="0" y="0">
+      <tspan class="prompt-user">cristian@portfolio</tspan><tspan class="prompt-path">:[~]$</tspan> <tspan class="prompt-cmd">git status</tspan>
+    </text>
+    <rect x="236" y="-12" width="8" height="15" fill="#00ff90" opacity="0.85">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
