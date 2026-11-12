@@ -23,7 +23,7 @@
 
 ---
 
-### 👨‍💻 Sobre mí
+###  Sobre mí
 
 ```yaml
 nombre: Cristian Camilo Muñoz Rodríguez
@@ -41,7 +41,7 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
 
 ---
 
-### 🛠️ Stack Tecnológico
+###  Stack Tecnológico
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,python,nodejs,js,postgres,mysql,docker,linux,bash,git,github,postman,html,css&perline=8&theme=dark" alt="Skill Icons" />
@@ -50,7 +50,7 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
 <br/>
 
 <details open>
-<summary><b>📂 Desglose por áreas</b></summary>
+<summary><b> Desglose por áreas</b></summary>
 <br/>
 
 | Área | Tecnologías & Herramientas |
@@ -65,12 +65,12 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
 
 ---
 
-### 🚀 Proyectos Destacados
+###  Proyectos Destacados
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🛡️ SICA-ACME</h3>
+      <h3 align="center"> SICA-ACME</h3>
       <p align="center">
         <b>Control de Acceso y Gestión de Seguridad</b><br/>
         Software de escritorio con arquitectura robusta, máquina de estados para flujo de visitas y auditoría inmutable en tiempo real.
@@ -83,7 +83,7 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">💳 ACME Bank</h3>
+      <h3 align="center"> ACME Bank</h3>
       <p align="center">
         <b>Simulador y Plataforma Bancaria Web</b><br/>
         Interfaz bancaria interactiva con autenticación de usuarios, consulta de movimientos, retiros, consignaciones y pago de servicios.
@@ -99,7 +99,7 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">📊 Gestión de Notas</h3>
+      <h3 align="center"> Gestión de Notas</h3>
       <p align="center">
         <b>Herramienta de Calificaciones Académicas</b><br/>
         Sistema web para registro y procesamiento de notas académicas, cálculo automático de promedios ponderados y ranking de estudiantes.
@@ -113,7 +113,7 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">🛍️ Ecommerce Ropa</h3>
+      <h3 align="center"> Ecommerce Ropa</h3>
       <p align="center">
         <b>Tienda Virtual & Carrito de Compras</b><br/>
         Plataforma e-commerce con catálogo de prendas, filtrado de productos y flujo intuitivo de carrito y checkout.
@@ -130,7 +130,7 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
 
 ---
 
-### 📈 Métricas de GitHub
+###  Métricas de GitHub
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Cristixn04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=00ff90&icon_color=00ff90&text_color=94a3b8" height="165" alt="GitHub Stats" />
@@ -143,7 +143,7 @@ filosofia: "Construir soluciones de software robustas, eficientes y que generen 
 
 ---
 
-### 🌐 Conéctate Conmigo
+###  Conéctate Conmigo
 
 <div align="center">
   <a href="https://www.linkedin.com/in/cristian-muñoz-159980409" target="_blank">
