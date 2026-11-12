@@ -36,7 +36,7 @@
 
 - ⚡ **Backend & Arquitectura:** Desarrollo robusto con **Java 21 (Spring Boot)**, **Python 3.12 (FastAPI)**, Domain-Driven Design (DDD) y Arquitectura Hexagonal.
 - 🎨 **Frontend Moderno:** Construcción de interfaces reactivas, tipadas y responsivas con **React 19**, **TypeScript** y **Tailwind CSS**.
-- 🗄️ **Bases de Datos & Persistencia:** Modelado estricto en **PostgreSQL 16** (normalización hasta 4FN), **MySQL** y optimización de consultas.
+- 🗄️ **Bases de Datos & Persistencia:** Modelado estricto en **PostgreSQL 16** (normalización hasta 4FN), **MySQL** y optimización de consultas ACID.
 - 🤖 **IA & Automatización:** Integración determinista de LLMs (**Google Gemini SDK** con Structured Outputs), agentes inteligentes y flujos en **n8n**.
 - 🐳 **Entornos & DevOps:** Despliegues y orquestación reproducible con **Docker & Docker Compose** en entornos **Linux**.
 
@@ -45,7 +45,7 @@
 ### Stack Tecnológico
 
 <div align="center">
-  <!-- ICONOS DE SKILLS ACTUALIZADOS CON REACT, TS, TAILWIND Y FASTAPI -->
+  <!-- ICONOS DE SKILLS ACTUALIZADOS -->
   <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,nodejs,ts,js,react,tailwind,postgres,mysql,docker,linux,bash,git,github,postman,html,css&perline=10&theme=dark" alt="Skill Icons" />
 </div>
 
@@ -74,56 +74,41 @@
     <td width="50%" valign="top">
       <h3 align="center">Renta_Tools</h3>
       <p align="center">
-        <b>Marketplace B2B/B2C de Maquinaria y Equipos</b><br/>
-        Plataforma empresarial para alquiler, inspección y facturación de herramientas industriales. Arquitectura Hexagonal DDD, control de concurrencia y seguridad JWT RBAC.
+        <b>Marketplace B2B/B2C para Renta de Maquinaria y Equipos</b><br/>
+        Plataforma empresarial para la gestión, reserva, inspección física y facturación electrónica de maquinaria pesada y herramientas de construcción.
+      </p>
+      <ul>
+        <li><b>Arquitectura:</b> DDD Hexagonal multi-módulo (domain, application, infrastructure).</li>
+        <li><b>Seguridad:</b> Autenticación sin estado y RBAC (Admin, Proveedor, Cliente) con Spring Security 6 y JWT.</li>
+        <li><b>Base de Datos:</b> PostgreSQL 16 modelado bajo estricta Cuarta Forma Normal (4FN).</li>
+        <li><b>Módulos Clave:</b> Generación dinámica de facturas PDF (OpenPDF), eventos en tiempo real con WebSockets (STOMP) y geolocalización con Leaflet.js.</li>
+        <li><b>Despliegue:</b> Orquestado 100% mediante Docker Compose.</li>
+      </ul>
+      <p align="center">
+        <code>Java 21</code> • <code>Spring Boot 3.4+</code> • <code>PostgreSQL 16</code> • <code>Docker</code>
       </p>
       <p align="center">
-        <code>Java 21</code> • <code>Spring Boot 3.4</code> • <code>PostgreSQL (4FN)</code> • <code>Docker</code>
-      </p>
-      <p align="center">
-        <a href="https://github.com/Leonardo4516/Proyecto_RentaHerramientas"><b>Ver Repositorio en GitHub →</b></a>
+        <a href="https://github.com/Leonardo4516/Proyecto_RentaHerramientas"><b>Explorar Código en GitHub →</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">Campuslands OpsCenter</h3>
       <p align="center">
-        <b>Gestión Operativa de Campus Asistida por IA</b><br/>
-        Sistema en tiempo real para control de aforos, prevención de solapamientos y triaje automatizado de incidencias con bloqueo preventivo de espacios.
+        <b>Gestión Operativa de Campus Asistida por Inteligencia Artificial</b><br/>
+        Sistema centralizado para control de aforos, reserva de espacios, trazabilidad de recursos tecnológicos y mitigación de contingencias en tiempo real.
       </p>
+      <ul>
+        <li><b>Frontend:</b> Single Page Application (SPA) responsiva y tipada con React 19, TypeScript y Tailwind CSS.</li>
+        <li><b>Triaje con IA:</b> Integración de Google Gemini API (gemini-3.8-flash) con Structured Outputs para clasificar severidad de fallas.</li>
+        <li><b>Reglas de Negocio:</b> Bloqueo preventivo automático de salas (HTTP 423 Locked) y prevención algorítmica de solapamientos.</li>
+        <li><b>Backend & APIs:</b> API REST asíncrona en FastAPI (Python 3.12), PostgreSQL 16 y generación de pases QR.</li>
+        <li><b>Contenedores:</b> Entorno reproducible con Docker Compose.</li>
+      </ul>
       <p align="center">
         <code>React 19</code> • <code>TypeScript</code> • <code>FastAPI</code> • <code>Gemini 3.8 Flash</code>
       </p>
       <p align="center">
-        <a href="https://github.com/Cristixn04/Campuslands-OpsCenter-"><b>Ver Repositorio en GitHub →</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">SICA-ACME</h3>
-      <p align="center">
-        <b>Control de Acceso y Gestión de Seguridad</b><br/>
-        Software de escritorio con arquitectura robusta, máquina de estados para flujo de visitas y auditoría inmutable en tiempo real.
-      </p>
-      <p align="center">
-        <code>Java</code> • <code>JavaFX</code> • <code>PostgreSQL</code> • <code>FXML</code>
-      </p>
-      <p align="center">
-        <a href="https://github.com/Cristixn04/SICA-ACME"><b>Ver Repositorio en GitHub →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">ACME Bank</h3>
-      <p align="center">
-        <b>Simulador y Plataforma Bancaria Web</b><br/>
-        Interfaz bancaria interactiva con autenticación de usuarios, consulta de movimientos, retiros, consignaciones y pago de servicios.
-      </p>
-      <p align="center">
-        <code>JavaScript</code> • <code>HTML5</code> • <code>CSS3</code>
-      </p>
-      <p align="center">
-        <a href="https://cristixn04.github.io/ACME-BANK-PROYECT/"><b>Demo en Vivo</b></a> • 
-        <a href="https://github.com/Cristixn04/ACME-BANK-PROYECT"><b>Repositorio →</b></a>
+        <a href="https://github.com/Cristixn04/Campuslands-OpsCenter-"><b>Explorar Código en GitHub →</b></a>
       </p>
     </td>
   </tr>
